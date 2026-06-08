@@ -1,0 +1,16 @@
+package axi_agent_package;
+
+import uvm_pkg::*;
+`include "uvm_macros.svh"
+
+//importing here seq package
+//import axi_seq_package::*;
+
+//importing here agent .sv code 
+`include "axi_transaction.sv"
+`include "axi_sequencer.sv"
+`include "axi_driver.sv"
+`include "axi_monitor.sv"
+`include "axi_agent.sv"
+
+endpackage
